@@ -1,0 +1,25 @@
+
+.contenedor_boton_opciones3{
+    text-align: right;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.boton_opciones3{
+    width: 38px;
+    height: 38px;
+    border-radius: 50px;
+    outline: none;
+    background-color:#417954 ;
+    cursor: pointer;
+    transition: 0.3s ease-in-out all;
+    font-size: 16px;
+    border: none;
+    box-shadow: #d8e6ce;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.boton_opciones3:hover{
+    transform: scale(1.05);
+}

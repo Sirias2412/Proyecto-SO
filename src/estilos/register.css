@@ -1,0 +1,72 @@
+
+section h3{
+    font-size: 250%;
+    font-family: 'Playfair Display', serif;
+    color: #202020;
+    text-align: center;
+}
+
+section form{
+    margin: 30px;
+}
+
+.contenedor_input{
+    width: 100%;
+    background: #fff;
+    padding: 14.5px 0px 15px 9px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.contenedor_input input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+    background-color: #ededed;
+    border-radius: 10px;
+    height: 50px;
+}
+
+input:-webkit-autofill, 
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active { 
+    -webkit-box-shadow: 0 0 0 30px white inset !important; 
+}
+
+.contenedor_boton{
+    margin: 10px 0px;
+    text-align: center;
+    color: white;
+}
+
+.boton{
+    margin-top:20px ;
+    padding: 20px;
+    border-radius: 10px;
+    outline: none;
+    background-color:#4ca26a ;
+    cursor: pointer;
+    transition: 0.3s ease-in-out all;
+    font-size: 16px;
+    border: none;
+    box-shadow: #d8e6ce;
+    color: white;
+}
+
+.boton:hover{
+    transform: scale(1.05);
+}
+
+.error{
+    width: auto;
+    background-color: rgb(226, 69, 69);
+    margin: 20px;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+}

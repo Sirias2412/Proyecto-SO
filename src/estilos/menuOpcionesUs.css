@@ -1,0 +1,67 @@
+.menuOpcionesUsuario{
+    position: fixed;
+    margin-left: calc(100% - 44%);
+    margin-top: 70px;
+    padding-top: 0px;
+    background-color: #474747;
+    border-radius: 10px;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: none;
+}
+
+.botonMenuUsuario{
+    width: 200px;
+    height: 40px;
+    text-align: left;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.botonMenuUsuario:hover{
+    background-color: #417954;
+}
+
+@media screen and (max-width: 1415px) {
+    .menuOpcionesUsuario{
+        margin-left: calc(100% - 50%);
+    }
+  }
+
+@media screen and (max-width: 1100px) {
+    .menuOpcionesUsuario{
+        margin-left: calc(100% - 60%);
+    }
+  }
+  
+@media screen and (max-width: 780px) {
+    .menuOpcionesUsuario{
+        margin-left: calc(100% - 63%);
+    }
+  }
+
+@media screen and (max-width: 767px) {
+    .menuOpcionesUsuario{
+        margin-left: calc(100% - 78%);
+    }
+}
+
+@media screen and (max-width: 635px) {
+    .menuOpcionesUsuario{
+        margin-left: calc(100% - 85%);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .menuOpcionesUsuario{
+        margin-left: calc(100% - 51%);
+    }
+}

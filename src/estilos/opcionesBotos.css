@@ -1,0 +1,56 @@
+.menuBots{
+    position: fixed;
+    padding-top: 0px;
+    background-color: #474747;
+    border-radius: 10px;
+    margin-left: calc(100% - 800px);
+    margin-top: 490px;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.botonBots{
+    width: 200px;
+    height: 40px;
+    text-align: left;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.botonBots:hover{
+    background-color: #417954;
+}
+
+
+@media screen and (max-width: 1500px) {
+    .menuBots{
+        margin-left: calc(100% - 600px);
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .menuBots{
+        margin-left: calc(100% - 470px);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .menuBots{
+        margin-left: calc(100% - 510px);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .menuBots{
+        margin-left: calc(100% - 260px);
+    }
+}
+

@@ -1,0 +1,17 @@
+.contenedor_busqueda{
+    width: 100%;
+    background: #fff;
+    padding-left: 10px;
+    border-radius: 30px;
+}
+
+.contenedor_busqueda input{
+    border-radius: 30px;
+    width: 94%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+}

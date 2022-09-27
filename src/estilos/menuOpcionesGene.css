@@ -1,0 +1,67 @@
+.menuOpcionesGene{
+    position: fixed;
+    margin-left: calc(100% - 92%);
+    margin-top: 10px;
+    padding-top: 0px;
+    background-color: #474747;
+    border-radius: 10px;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.botonMenuGenral{
+    width: 200px;
+    height: 40px;
+    text-align: left;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.botonMenuGenral:hover{
+    background-color: #417954;
+}
+
+.modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 2000;
+    left: 0;
+    top: 0;
+}
+
+
+@media screen and (max-width: 1310px) {
+    .menuOpcionesGene{
+        margin-left: calc(100% - 95%);
+    }
+}
+
+@media screen and (max-width: 1123px) {
+    .menuOpcionesGene{
+        margin-left: calc(100% - 97%);
+    }
+}
+
+@media screen and (max-width: 1021px) {
+    .menuOpcionesGene{
+        margin-left: calc(100% - 100%);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .menuOpcionesGene{
+        margin-left: calc(100% - 95%);
+    }
+}

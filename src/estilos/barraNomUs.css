@@ -1,0 +1,42 @@
+.contenedor{
+    height: 80px;
+    background-color: #99D9AF;
+}
+
+.info_Usuario{
+    text-align: center;
+}
+
+.contenedor h3{
+    color: #214e30;
+    margin-bottom: 2px;
+}
+
+.contenedor h4{
+    color: #434343;
+    margin-top: 0px;
+}
+
+.contenedor_boton_opciones2{
+    text-align: right;
+    color: white;
+    padding-top: 25px;
+    padding-right: 40px;
+}
+
+.boton_opciones2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    outline: none;
+    background-color:#417954 ;
+    cursor: pointer;
+    transition: 0.3s ease-in-out all;
+    font-size: 16px;
+    border: none;
+    box-shadow: #d8e6ce;
+}
+
+.boton_opciones2:hover{
+    transform: scale(1.05);
+}
