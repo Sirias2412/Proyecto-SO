@@ -222,7 +222,7 @@ body{
 
 .opcionesMensajes{
     outline: none;
-    background-color:#417954 ;
+    background:none ;
     cursor: pointer;
     transition: 0.3s ease-in-out all;
     font-size: 12px;

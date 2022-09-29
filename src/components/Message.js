@@ -1,7 +1,8 @@
 import React, { useRef, useEffect, useState } from "react";
 import Moment from "react-moment";
+import { FaChevronDown } from 'react-icons/fa';
 
-const Message = ({ msg, user1, user2uid }) => {
+const Message = ({ msg, user1, user2uid, abrirOpcionesMensajes }) => {
   const scrollRef = useRef();
   const CryptoJS = require("crypto-js");
   const [texto,setTexto]= useState("")
@@ -28,6 +29,9 @@ const Message = ({ msg, user1, user2uid }) => {
         <small>
           <Moment fromNow>{msg.createdAt.toDate()}</Moment>
         </small>
+        <button className="opcionesMensajes" onClick = {abrirOpcionesMensajes}> 
+          <FaChevronDown></FaChevronDown>
+        </button>
       </p>
     </div>
   );

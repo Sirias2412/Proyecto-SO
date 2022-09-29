@@ -25,6 +25,7 @@ import MenuOpcionesGenerales from '../components/MenuOpcionesGenerales';
 import { FaEllipsisV } from 'react-icons/fa';
 import MenuOpcionesUsuarios from '../components/MenuOpcionesUsuarios';
 import OpcionesBots from "../components/OpcionesBots";
+import MenuOpcionesMensajes from "../components/MenuOpcionesMensajes";
 
 
 const Home = () => {
@@ -35,6 +36,7 @@ const Home = () => {
   const [msgs, setMsgs] = useState([]);
   const [menuOpciones, setmenuOpciones] = useState(false);
   const [menuOpcionesUsuario, setmenuOpcionesUsuario] = useState(false);
+  const [menuOpcionesMensajes, setmenuOpcionesMensajes] = useState(false);
   const [menuBots, setmenuBots] = useState(false);
   const CryptoJS = require("crypto-js");
 
@@ -59,7 +61,9 @@ const Home = () => {
     setmenuBots(!menuBots);
   }
 
-
+  const abrirOpcionesMensajes =  async ()  => {
+    setmenuOpcionesMensajes(!menuOpcionesMensajes);
+  }
    
   const selectUser = async (user) => {
     setChat(user);
@@ -178,16 +182,21 @@ const Home = () => {
                 </>
               ): null }
             </div>
-            {menuBots ? (
+              {menuBots ? (
                 <>
                   <OpcionesBots></OpcionesBots>
+                </>
+              ): null }
+              {menuOpcionesMensajes ? (
+                <>
+                  <MenuOpcionesMensajes></MenuOpcionesMensajes>
                 </>
               ): null }
            
             <div className="messages">
               {msgs.length
                 ? msgs.map((msg, i) => (
-                    <Message key={i} msg={msg} user1={user1} />
+                    <Message key={i} msg={msg} user1={user1} abrirOpcionesMensajes={abrirOpcionesMensajes}/>
                   ))
                 : null}
             </div>

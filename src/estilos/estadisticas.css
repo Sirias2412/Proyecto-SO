@@ -42,7 +42,7 @@
 }
 
 .titulo h1{
-    color: #417954;
+  color: #417954;
 }
 
 .info_Estadistica{
@@ -72,4 +72,13 @@
 
 .cerrar_estadisticas:hover{
     transform: scale(1.05);
+}
+
+.cargando{
+  text-align: center;
+  padding: 30px;
+}
+
+.cargando text{
+  font-size: 20px;
 }
